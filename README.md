@@ -17,9 +17,10 @@ The goal of this project is to develop, compare, and evaluate multivariate regre
 Clone the repository and install the required Julia packages.
 
 ```bash
-git clone https://github.com/yourusername/yourproject.git
-cd yourproject
+git clone https://github.com/Zitech-iav/chemometrics-julia.git
+cd chemometrics-julia
 
 # Install dependencies via Julia's package manager
-# Example using Flux.jl for neural networks
-julia -e 'using Pkg; Pkg.add("Flux")'
+# Using Flux.jl for neural networks
+using Pkg
+Pkg.add("Flux")
